@@ -216,11 +216,3 @@ docker run --rm -i price-fetcher python -u fetch_best_price.py
 3. Add new scrapers or improve existing ones
 4. Test thoroughly
 5. Submit a pull request
-
-## ⚖️ **Legal Notice**
-
-This tool is for educational and personal use only. Please respect the terms of service of the websites being scraped. Some websites may block automated requests.
-
-## 📄 **License**
-
-This project is for educational purposes. Please respect the terms of service of the websites being scraped. 
