@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  price-fetcher:
+    build: .
+    container_name: price-fetcher
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+    command: tail -f /dev/null  # Keep container running for interactive use 
